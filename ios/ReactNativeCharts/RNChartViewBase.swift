@@ -480,6 +480,7 @@ open class RNChartViewBase: UIView, ChartViewDelegate {
         if self.onSelect == nil {
             return
         } else {
+            entry.data = JSON(["locationX": highlight.xPx, "locationY": highlight.yPx])
             self.onSelect!(EntryToDictionaryUtils.entryToDictionary(entry))
 
         }
