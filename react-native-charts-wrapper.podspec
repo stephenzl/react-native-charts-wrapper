@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.dependency 'React'
   s.dependency 'SwiftyJSON', '5.0'
-  s.dependency 'Charts', :git => 'https://github.com/stephenzl/charts', :branch => 'v3.6.0+xcode14'
+  s.dependency 'Charts', '3.6.0'
 end
